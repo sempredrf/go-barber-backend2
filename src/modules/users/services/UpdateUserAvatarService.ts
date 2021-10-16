@@ -1,6 +1,5 @@
 import { inject, injectable } from 'tsyringe';
 
-import updloadConfig from '@config/upload';
 import AppError from '@shared/errors/AppError';
 
 import IStorageProvider from '@shared/container/providers/StorageProvider/models/IStorageProvider';
