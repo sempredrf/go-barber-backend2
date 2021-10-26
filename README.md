@@ -31,6 +31,22 @@
 
 # Painel do prestador
 
+**RF (Requisitos funcionais)**
+
+- o usuario deve poder listar seus agendamentos em um dia especifico;
+- o prestador deve receber uma notificacao sempre que houver um novo agendamento;
+- o prestador deve poder visualizar as notificacoes nao lidas;
+
+**RNF (Requisitos não-funcionais)**
+
+- os agendamentos do prestador do dia devem ser armazenados em cache;
+- as notificacoes do prestador devem ser armazenados no mongodb;
+- as notificacoes do prestador devem ser enviadas em tempo-real utilizando socket.io;
+
+**RN (Regras de negócio)**
+
+- a notificacao deve ter um status de lida ou nao-lida para que o prestador possa controlar;
+
 # Agendamento de serviços
 
 **RF (Requisitos funcionais)**
